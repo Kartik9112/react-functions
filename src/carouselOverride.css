@@ -1,0 +1,15 @@
+.carousel .control-arrow {
+  top: 45% !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel .control-prev.control-arrow {
+  left: 15px !important;
+}
+
+.carousel .control-next.control-arrow {
+  right: 15px !important;
+}
