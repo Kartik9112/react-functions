@@ -9,6 +9,9 @@ import StatePrvCount from './StatePrvCount';
 import Otp from './Otp';
 import Image from './Image';
 import './carouselOverride.css';
+import UseMemo from './UseMemo';
+import ProductResult from './ProductResult';
+import EventManager from './EventManager';
 
 
 function App() {
@@ -27,6 +30,9 @@ function App() {
           <li><Link to="/StatePrvCount">StatePrvCount</Link></li>
           <li><Link to="/Otp">Otp</Link></li>
           <li><Link to="/Image">Image</Link></li>
+          <li><Link to="/UseMemo">UseMemo</Link></li>
+          <li><Link to="/ProductResult">ProductResult</Link></li>
+          <li><Link to="/EventManager">EventManager</Link></li>
         </ul>
       </nav>
 
@@ -40,6 +46,10 @@ function App() {
         <Route path="/StatePrvCount" element={<StatePrvCount />} />
         <Route path="/Otp" element={<Otp />} />
         <Route path="/Image" element={<Image />} />
+        <Route path="/UseMemo" element={<UseMemo />} />
+        <Route path="/ProductResult" element={<ProductResult />} />
+        <Route path="/EventManager" element={<EventManager/>} />
+        
       </Routes>
     </div>
   );
