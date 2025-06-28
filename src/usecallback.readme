@@ -1,0 +1,13 @@
+useCallback-
+it is a react hooken that returns a memoized version of a callback
+function.
+
+Iska matlab ye hai ki agar dependency array ki value change hogi tabhi
+ye pura react function change kiya jayega(recreate) hoga otherwise same
+function hi return kar dega.
+
+Syntax - :
+
+const memoizedCallback=useCallback(()=>{
+// function code
+}, [dependency array]) 
